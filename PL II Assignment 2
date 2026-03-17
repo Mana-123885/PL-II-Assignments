@@ -1,0 +1,42 @@
+#To study Arithemetic, Relational and Logical Operators in Python
+#Assignment 2
+#1. WAP to add two numbers in python
+a = 5
+b = 10
+c = a + b
+print(c)
+
+#2. WAP to declare variables and display types of respective variables
+o = 10
+print(o,":",type(o))
+p = 2.5
+print(p,":",type(p))
+q = 'Hello World!'
+print(q,":",type(q))
+r = True
+print(r,":",type(r))
+s = []
+print(s,":",type(s))
+t = ()
+print(t,":",type(t))
+u = {}
+print(u,":",type(u))
+v = set()
+print(v,":",type(v))
+
+#3. WAP to demonstrate type casting in python
+d = a/b
+print("Before type casting: ")
+print(d)
+print("\nAfter type casting: ")
+print(int(d))
+
+#4. WAP to demonstrate Logical operators
+e = True
+f = False
+g = e and f
+print(g)
+h = e or f
+print(h)
+i = not e
+print(i)
