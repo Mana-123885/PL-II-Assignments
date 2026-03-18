@@ -1,0 +1,37 @@
+#To study if, if-else, if-elif-else statement in python
+#Assignment 3
+#1. WAP to find out greatest of 3 numbers
+a = 6
+b = 7
+c = 3
+if a > b and a > c:
+    print(a," is the greatest number.")
+elif b > a and b > c:
+    print(b," is the greatest number.")
+else:
+    print(c," is the greatest number.")
+
+#2. WAP to find whether given number is odd or even
+d = 6
+if d % 2 == 0:
+    print(d," is Even number.")
+else:
+    print(d," is Odd number.")
+
+#3. WAP to check whether a charater is upper case or lower case alphabet
+x = "Hello world"
+if x.islower():
+    print("All letters are in lower case.")
+elif x.isupper():
+    print("All letters are in upper case.")
+else:
+    print("The letters are in both lower and upper case.")
+
+#4. WAP to find whether given input is number or character
+y = input("Enter the input: ")
+if y.isdigit():
+    print("Input is a number.")
+elif y.isalpha():
+    print("Input is a character.")
+else:
+    print("Input is a caombination of both numbers and characters.")
